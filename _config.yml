@@ -4,9 +4,9 @@ highlighter:      rouge
 
 # Setup
 title:            Fast Robot
-tagline:          'A Jekyll theme'
-description:      'ECE 5960 Spring 2022'
-url:              https://fongandrew.github.io
+tagline:          'A Culminating Design Experience (CDE) Course'
+description:      'ECE 5960 - Spring 2022'
+url:              https://github.com/soulkun/ECE5960-Fast-Robots
 baseurl:          '/hydeout'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -15,10 +15,10 @@ baseurl:          '/hydeout'
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           ''
+  url:            
 
-paginate:         5
+paginate:         1
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
