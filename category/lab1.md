@@ -32,6 +32,10 @@ Simple as the previous, load the sample code and upload to the board. Need to be
 Click **[here](http://www.youtube-nocookie.com/embed/CPWnKTZDggU)** if the video does not show.
 
 <div class="video-container">
+  <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/CPWnKTZDggU"></iframe>
+</div>
+
+<div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/CPWnKTZDggU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
