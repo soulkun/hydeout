@@ -36,7 +36,7 @@ Click [here](http://www.youtube-nocookie.com/embed/CPWnKTZDggU) if the video doe
 </div>
 
 ## 5. Analog Read
-This example shows how to read analog data. First, load the example file, on my Arduino IDE, it locates at `Files-->Examples-->Example02_AnalogRead`. Then choose it and upload to the board. On line #56, 57 and 58 shows how to retrieve analog data;
+This example shows how to read analog data. First, load the example file, on my Arduino IDE, it locates at **`Files-->Examples-->Example02_AnalogRead`**. Then choose it and upload to the board. On line #56, 57 and 58 shows how to retrieve analog data;
 {% highlight c linenos %}
 int vcc_3 = analogReadVCCDiv3();    // reads VCC across a 1/3 voltage divider
 int vss = analogReadVSS();          // ideally 0
@@ -55,7 +55,7 @@ Click [here](http://www.youtube-nocookie.com/embed/WPtpbuohPgc) if the video doe
 </div>
   
 ## 6. Microphone Output
-In this example, load the example file located at `File-->Examples-->PDM-->Example1_MicrophoneOutput` then upload to the board. The Artemis Nano board is using a Pluse-Density Modulation microphone. Open the serial monitor, it continuously shows the loudest frequency currently captured. One thing I noticed, when my environment is silent, the serial monitor shows the loudest frequency is around **20015 Hz**...
+In this example, load the example file located at **`File-->Examples-->PDM-->Example1_MicrophoneOutput`** then upload to the board. The Artemis Nano board is using a Pluse-Density Modulation microphone. Open the serial monitor, it continuously shows the loudest frequency currently captured. One thing I noticed, when my environment is silent, the serial monitor shows the loudest frequency is around **20015 Hz**...
 
 To test, I use my iPhone app to generate serval different frequencies, and finally I use my PC to generate a 16kHz sound, it seems this PDM microphone is pretty precise.
 Click [here](http://www.youtube-nocookie.com/embed/88ZAxnkcrFo) if the video does not show.
