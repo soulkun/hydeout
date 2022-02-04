@@ -74,7 +74,7 @@ uint32_t printLoudest(void)
 
 In the loop function, I use a variable called freq to save the current frequency value that returns from the printLoudest.
 
-{% highlight arduino %}
+{% highlight c %}
 uint32_t freq = printLoudest();
 {% endhighlight %}
 
