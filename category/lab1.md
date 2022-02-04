@@ -32,7 +32,7 @@ Simple as the previous, load the sample code and upload to the board. Need to be
 Click **[here](http://www.youtube-nocookie.com/embed/CPWnKTZDggU)** if the video does not show.
 
 <div class="video-container">
-  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/OqJWkwJO0fc?controls=0&amp;"></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/C-nALYF73hU"></iframe>
 </div>
 
 <div class="video-container">
