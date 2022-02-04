@@ -74,10 +74,8 @@ uint32_t printLoudest(void)
 
 In the loop function, I use a variable called freq to save the current frequency value that returns from the printLoudest.
 
-{% highlight c linenos %}
-{% raw %}
+{% highlight arduino %}
 uint32_t freq = printLoudest();
-{% endraw %}
 {% endhighlight %}
 
 Finally, use the if-else statement to see if the current frequency is between 2000~3000 Hz, turn on the LED if so, otherwise turn it off.
