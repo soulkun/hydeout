@@ -50,7 +50,7 @@ To test, I use my iPhone app to generate serval different frequencies, and final
 ## Additional Task
 Here is my solution for this special task. First, I need to light up the LED, so inside the setup function, I add the following.
 
-{% highlight arduino linenos %}
+{% highlight ino linenos %}
 {% raw %}
 pinMode(LED_BUILTIN, OUTPUT);
 {% endraw %}
@@ -58,7 +58,7 @@ pinMode(LED_BUILTIN, OUTPUT);
 
 Second, I need to determine when to turn on the LED and turn it off. By testing multiple times, I found out the whistle sound is around 2000~3000 Hz. Then I goes into printLoudest function, and at the end of this function, I add a return statement inorder to return the current frequency.
 
-{% highlight arduino linenos %}
+{% highlight ino linenos %}
 {% raw %}
 return ui32LoudestFrequency;
 {% endraw %}
@@ -66,7 +66,7 @@ return ui32LoudestFrequency;
 
 Also, I need to modify the function definition to specify the type of my return value.
 
-{% highlight arduino linenos %}
+{% highlight ino linenos %}
 {% raw %}
 uint32_t printLoudest(void)
 {% endraw %}
@@ -74,7 +74,7 @@ uint32_t printLoudest(void)
 
 In the loop function, I use a variable called freq to save the current frequency value that returns from the printLoudest.
 
-{% highlight arduino linenos %}
+{% highlight ino linenos %}
 {% raw %}
 uint32_t freq = printLoudest();
 {% endraw %}
@@ -82,7 +82,7 @@ uint32_t freq = printLoudest();
 
 Finally, use the if-else statement to see if the current frequency is between 2000~3000 Hz, turn on the LED if so, otherwise turn it off.
 
-{% highlight arduino linenos %}
+{% highlight ino linenos %}
 {% raw %}
 if(freq >= 2000 && freq <= 3000)
   digitalWrite(LED_BUILTIN, HIGH);
