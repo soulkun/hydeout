@@ -24,7 +24,7 @@ This part is pretty easy, just load the sample code and upload to the Artemis Na
 Click **[here](http://www.youtube-nocookie.com/embed/njwVnxOrFAU)** if the video does not show.
 
 <div class="video-container">
-  <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="http://www.youtube-nocookie.com/embed/njwVnxOrFAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 4. Serial
