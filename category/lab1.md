@@ -18,14 +18,14 @@ When I plug the Artemis Nano board, the operating system does not recognize this
 ![](https://github.com/soulkun/ECE5960-Fast-Robots/raw/gh-pages/lab1/power.jpg)
 
 ## 3: Blink it Up!
-This part is pretty easy, just load the sample code and upload to the Artemis Nano board. I use baud rate 460800. Below video shows the internal blue LED flashing in 0.5Hz.
+This part is pretty easy, just load the sample code and upload to the Artemis Nano board. I use baud rate **460800**. Below video shows the internal blue LED flashing in 0.5Hz.
 
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 4: Serial
-Simple as the previous, load the sample code and upload to the board. Need to be careful set the baud rate to 115200. Once upload to the board, use Tools-->Serial Monitor to send and view messages.
+Simple as the previous, load the sample code and upload to the board. Need to be careful set the baud rate to **115200**. Once upload to the board, use `Tools-->Serial Monitor` to send and view messages.
 
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/CPWnKTZDggU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
