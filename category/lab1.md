@@ -43,6 +43,10 @@ In this example, load the example file located at File-->Examples-->PDM-->Exampl
 
 To test, I use my iPhone app to generate serval different frequencies, and finally I use my PC to generate a 16kHz sound, it seems this PDM microphone is pretty precise.
 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/88ZAxnkcrFo?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/88ZAxnkcrFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
