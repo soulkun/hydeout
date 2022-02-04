@@ -20,25 +20,32 @@ When I plug the Artemis Nano board, the operating system does not recognize this
 ## 3: Blink it Up!
 This part is pretty easy, just load the sample code and upload to the Artemis Nano board. I use baud rate 460800. Below video shows the internal blue LED flashing in 0.5Hz.
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="http://www.youtube.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## 4: Serial
 Simple as the previous, load the sample code and upload to the board. Need to be careful set the baud rate to 115200. Once upload to the board, use Tools-->Serial Monitor to send and view messages.
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="http://www.youtube.com/embed/CPWnKTZDggU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## 5: Analog Read
 This example shows how to read analog data. First, load the example file, on my Arduino IDE, it locates at Files-->Examples-->Example02_AnalogRead. Then choose it and upload to the board. On line #56, 57 and 58 shows how to retrieve analog data; on line #60, the code shows "computed die temperature in deg F". Open the serial monitor, we can see temp, vcc and vss data updates in millisecond. To test it, I put mu thumb onto the board to makes it warm, and the temp value jumps from 33872 to 34232.
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="http://www.youtube.com/embed/WPtpbuohPgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
   
 ## 6: Microphone Output
 In this example, load the example file located at File-->Examples-->PDM-->Example1_MicrophoneOutput then upload to the board. The Artemis Nano board is using a Pluse-Density Modulation microphone. Open the serial monitor, it continuously shows the loudest frequency currently captured. One thing I noticed, when my environment is silent, the serial monitor shows the loudest frequency is around 20015Hz...
 
 To test, I use my iPhone app to generate serval different frequencies, and finally I use my PC to generate a 16kHz sound, it seems this PDM microphone is pretty precise.
 
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="http://www.youtube.com/embed/88ZAxnkcrFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Additional Task
 Here is my solution for this special task. First, I need to light up the LED, so inside the setup function, I add the following.
@@ -64,4 +71,6 @@ if(freq >= 2000 && freq <= 3000)
 else
   digitalWrite(LED_BUILTIN, LOW);
 ```
+<div class="embed-responsive embed-responsive-16by9">
 <iframe width="560" height="315" src="http://www.youtube.com/embed/I5yo20A9p-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
