@@ -21,7 +21,7 @@ When I plug the Artemis Nano board, the operating system does not recognize this
 
 ## 3. Blink it Up!
 This part is pretty easy, just load the sample code and upload to the Artemis Nano board. I use baud rate **460800**. Below video shows the internal blue LED flashing in 0.5Hz.
-Click **[here]**(http://www.youtube-nocookie.com/embed/njwVnxOrFAU) if the video does not show.
+Click **[here](http://www.youtube-nocookie.com/embed/njwVnxOrFAU)** if the video does not show.
 
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,7 +29,7 @@ Click **[here]**(http://www.youtube-nocookie.com/embed/njwVnxOrFAU) if the video
 
 ## 4. Serial
 Simple as the previous, load the sample code and upload to the board. Need to be careful set the baud rate to **115200**. Once upload to the board, use **`Tools-->Serial Monitor`** to send and view messages.
-Click **[here]**(http://www.youtube-nocookie.com/embed/CPWnKTZDggU) if the video does not show.
+Click **[here](http://www.youtube-nocookie.com/embed/CPWnKTZDggU)** if the video does not show.
 
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/CPWnKTZDggU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -48,7 +48,7 @@ on line #60, the code shows "computed die temperature in deg F".
 float temp_f = getTempDegF();       // computed die temperature in deg F
 {% endhighlight %}
 Open the serial monitor, we can see temp, VCC and VSS data updates in millisecond. To test it, I put mu thumb onto the board to makes it warm, and the temp value jumps from **33872 to 34232**.
-Click **[here]**(http://www.youtube-nocookie.com/embed/WPtpbuohPgc) if the video does not show.
+Click **[here](http://www.youtube-nocookie.com/embed/WPtpbuohPgc)** if the video does not show.
 
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/WPtpbuohPgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -58,7 +58,7 @@ Click **[here]**(http://www.youtube-nocookie.com/embed/WPtpbuohPgc) if the video
 In this example, load the example file located at **`File-->Examples-->PDM-->Example1_MicrophoneOutput`** then upload to the board. The Artemis Nano board is using a Pluse-Density Modulation microphone. Open the serial monitor, it continuously shows the loudest frequency currently captured. One thing I noticed, when my environment is silent, the serial monitor shows the loudest frequency is around **20015 Hz**...
 
 To test, I use my iPhone app to generate serval different frequencies, and finally I use my PC to generate a 16kHz sound, it seems this PDM microphone is pretty precise.
-Click **[here]**(http://www.youtube-nocookie.com/embed/88ZAxnkcrFo) if the video does not show.
+Click **[here](http://www.youtube-nocookie.com/embed/88ZAxnkcrFo)** if the video does not show.
 
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/88ZAxnkcrFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -98,7 +98,7 @@ else
   digitalWrite(LED_BUILTIN, LOW);
 {% endhighlight %}
 
-Click **[here]**(http://www.youtube-nocookie.com/embed/I5yo20A9p-E) if the video does not show.
+Click **[here](http://www.youtube-nocookie.com/embed/I5yo20A9p-E)** if the video does not show.
 <div class="video-container">
   <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/I5yo20A9p-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
