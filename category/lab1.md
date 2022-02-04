@@ -57,9 +57,12 @@ Second, I need to determine when to turn on the LED and turn it off. By testing 
 return ui32LoudestFrequency;
 ```
 Also, I need to modify the function definition to specify the type of my return value.
-```
+{% highlight c linenos %}
+{% raw %}
 uint32_t printLoudest(void)
-```
+{% endraw %}
+{% endhighlight %}
+
 In the loop function, I use a variable called freq to save the current frequency value that returns from the printLoudest.
 ```
 uint32_t freq = printLoudest();
