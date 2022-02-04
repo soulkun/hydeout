@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Fast Robot
+title:            FRast Robot
 tagline:          'A Culminating Design Experience (CDE) Course'
 description:      'ECE 5960 - Spring 2022'
 url:              https://github.com/soulkun/ECE5960-Fast-Robots
