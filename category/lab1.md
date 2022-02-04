@@ -21,21 +21,21 @@ When I plug the Artemis Nano board, the operating system does not recognize this
 This part is pretty easy, just load the sample code and upload to the Artemis Nano board. I use baud rate 460800. Below video shows the internal blue LED flashing in 0.5Hz.
 
 <div class="video-container">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 4: Serial
 Simple as the previous, load the sample code and upload to the board. Need to be careful set the baud rate to 115200. Once upload to the board, use Tools-->Serial Monitor to send and view messages.
 
 <div class="video-container">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/CPWnKTZDggU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/CPWnKTZDggU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 5: Analog Read
 This example shows how to read analog data. First, load the example file, on my Arduino IDE, it locates at Files-->Examples-->Example02_AnalogRead. Then choose it and upload to the board. On line #56, 57 and 58 shows how to retrieve analog data; on line #60, the code shows "computed die temperature in deg F". Open the serial monitor, we can see temp, vcc and vss data updates in millisecond. To test it, I put mu thumb onto the board to makes it warm, and the temp value jumps from 33872 to 34232.
 
 <div class="video-container">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/WPtpbuohPgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/WPtpbuohPgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
   
 ## 6: Microphone Output
@@ -44,7 +44,7 @@ In this example, load the example file located at File-->Examples-->PDM-->Exampl
 To test, I use my iPhone app to generate serval different frequencies, and finally I use my PC to generate a 16kHz sound, it seems this PDM microphone is pretty precise.
 
 <div class="video-container">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/88ZAxnkcrFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/88ZAxnkcrFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Additional Task
@@ -72,5 +72,5 @@ else
   digitalWrite(LED_BUILTIN, LOW);
 ```
 <div class="video-container">
-<iframe width="560" height="315" src="http://www.youtube.com/embed/I5yo20A9p-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/I5yo20A9p-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
