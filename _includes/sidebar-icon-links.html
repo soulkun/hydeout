@@ -1,9 +1,11 @@
 <nav id="sidebar-icon-links">
-  <a id="github-link"
-      class="icon" title="Github Project" aria-label="Github Project"
-      href="{{ https://github.com/soulkun/ECE5960-Fast-Robots }}">
-    {% include svg/github.svg %}
-  </a>
+  {% if site.hydeout.repo %}
+    <a id="github-link"
+       class="icon" title="Github Project" aria-label="Github Project"
+       href="{{ site.hydeout.repo }}">
+      {% include svg/github.svg %}
+    </a>
+  {% endif %}
 
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
