@@ -1,3 +1,7 @@
+---
+layout: post
+title: "[ECE 5960] Fast Robot"
+---
 # Hydeout
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
