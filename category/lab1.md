@@ -36,7 +36,7 @@ Click **[here](http://www.youtube-nocookie.com/embed/CPWnKTZDggU)** if the video
 </div>
 
 <div class="video-container">
-  <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/CPWnKTZDggU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="http://www.youtube-nocookie.com/embed/C-nALYF73hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 5. Analog Read
