@@ -20,6 +20,10 @@ When I plug the Artemis Nano board, the operating system does not recognize this
 ## 3: Blink it Up!
 This part is pretty easy, just load the sample code and upload to the Artemis Nano board. I use baud rate 460800. Below video shows the internal blue LED flashing in 0.5Hz.
 
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <div class="video-container">
   <iframe width="560" height="315" src="http://www.youtube.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
