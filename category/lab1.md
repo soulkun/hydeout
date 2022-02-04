@@ -23,7 +23,7 @@ This part is pretty easy, just load the sample code and upload to the Artemis Na
   <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="video-container">
-  <iframe width="560" height="315" src="http://www.youtube.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/njwVnxOrFAU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## 4: Serial
